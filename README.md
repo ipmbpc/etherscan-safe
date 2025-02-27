@@ -21,7 +21,7 @@ This guide demonstrates how to approve an ERC721 contract using a SAFE wallet th
 5. Click "Write" and when the MetaMask window pops up, don't execute - just copy the Data: `0xa22cb46500000000000000000000000050c3bfe4ecf9eb15fb306534f8eeeae58cb0f62f0000000000000000000000000000000000000000000000000000000000000001`
 6. The data includes:
    - Function selector: `a22cb465`
-   - Operator address
+   - Operator address: `0x50c3BFE4ECf9eb15fb306534f8Eeeae58Cb0F62F`
    - Bool state: `1` (true)
 
 ### PART B: Prepare Transaction Data
@@ -70,7 +70,7 @@ Call `execTransaction` function using "Write As Proxy":
 - Use PART B details
 - Combine signatures: `0xdd9c29a1ec71401dd50a639e53c322b56363f9d76bbd0fad7810c0c25f7178946b90846e40d35a8d8016c5d4db40a1a1d7fd55d254324ee1528130d94fb693981f000000000000000000000000Dc8284761eDC5D59995652487Ea8a97cac1CE547000000000000000000000000000000000000000000000000000000000000000001`
 
-Please note that the wallet that has the second signature will execute the function, in our case this wallet has the address `0xDc8284761eDC5D59995652487Ea8a97cac1CE547`
+Please note that the wallet executing the function, in our case the wallet with address `0xDc8284761eDC5D59995652487Ea8a97cac1CE547`, must have its signature in the correct format and placed last.
 
 #### Transaction Result
 
