@@ -45,7 +45,7 @@ This guide demonstrates how to approve an ERC721 contract using a SAFE wallet th
 
 1. Run a web server (e.g., WAMP)
 2. Open the gnosis HTML file and replace the message value with the output from PART B
-3. Access the gnosis file (http://localhost/verifysignature/gnosis.html)
+3. Access the gnosis file at your localhost ex. http://localhost/verifysignature/gnosis.html
 4. Sign the message from one SAFE owner's wallet, click Inspect, and copy the signature: `0xdd9c29a1ec71401dd50a639e53c322b56363f9d76bbd0fad7810c0c25f7178946b90846e40d35a8d8016c5d4db40a1a1d7fd55d254324ee1528130d94fb693981b`
 5. Repeat with other owners
 
