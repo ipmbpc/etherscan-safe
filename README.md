@@ -70,7 +70,7 @@ Call `execTransaction` function using "Write As Proxy":
 - Use PART B details
 - Combine signatures: `0xdd9c29a1ec71401dd50a639e53c322b56363f9d76bbd0fad7810c0c25f7178946b90846e40d35a8d8016c5d4db40a1a1d7fd55d254324ee1528130d94fb693981f000000000000000000000000Dc8284761eDC5D59995652487Ea8a97cac1CE547000000000000000000000000000000000000000000000000000000000000000001`
 
-Please note that the wallet that has the second signature will execute the function, in our case wallet with address `0xDc8284761eDC5D59995652487Ea8a97cac1CE547`
+Please note that the wallet that has the second signature will execute the function, in our case this wallet has the address `0xDc8284761eDC5D59995652487Ea8a97cac1CE547`
 
 #### Transaction Result
 
