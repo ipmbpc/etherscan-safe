@@ -49,6 +49,8 @@ This guide demonstrates how to approve an ERC721 contract using a SAFE wallet th
 4. Sign the message from one SAFE owner's wallet, click Inspect, and copy the signature: `0xdd9c29a1ec71401dd50a639e53c322b56363f9d76bbd0fad7810c0c25f7178946b90846e40d35a8d8016c5d4db40a1a1d7fd55d254324ee1528130d94fb693981b`
 5. Repeat with other owners
 
+If your SAFE wallet is 2/4 as in our case, then you just need 1 signature as we will use the format 0x000000000000000000000000[ADDRESS]000000000000000000000000000000000000000000000000000000000000000001 for the 2nd signature.
+
 #### Modify Signatures
 
 SAFE wallet signatures need v value modification:
