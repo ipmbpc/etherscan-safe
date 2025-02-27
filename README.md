@@ -16,7 +16,7 @@ This guide demonstrates how to approve an ERC721 contract using a SAFE wallet th
 2. Click on "Contract" tab and then "Write Contract"
 3. Connect your wallet on Polygonscan
 4. Locate the `setApprovalForAll` function and insert these inputs:
-   - operator: `0x2e50790cDdf3dB93A9f338EE6De6857216cd9aCA`
+   - operator: `0x50c3BFE4ECf9eb15fb306534f8Eeeae58Cb0F62F`
    - approved: `true`
 5. Click "Write" and when the MetaMask window pops up, don't execute - just copy the Data: `0xa22cb46500000000000000000000000050c3bfe4ecf9eb15fb306534f8eeeae58cb0f62f0000000000000000000000000000000000000000000000000000000000000001`
 6. The data includes:
